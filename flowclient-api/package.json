@@ -1,0 +1,22 @@
+{
+  "name": "flowclient-api",
+  "version": "1.0.0",
+  "description": "FlowClient Online API - Temporary in-memory player tracking",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": ["flowclient", "minecraft", "api"],
+  "author": "FlowClient Team",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "helmet": "^7.1.0",
+    "express-rate-limit": "^7.1.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
